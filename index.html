@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Management</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link href="output.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="bg-gray-500">
+        <div class="container mx-auto flex justify-between items-center py-3">
+            <!-- Logo -->
+            <div class="flex justify-start">
+                <div class="text-black bg-white rounded-lg my-1 hover:bg-red-600 hover:text-white mx-2">
+                    <a href=""><p class="mx-2">Make a Reservation</p></a>
+                </div>
+                <div class="text-black bg-white rounded-lg my-1 hover:bg-red-600 hover:text-white mx-2">
+                    <a href=""><p class="mx-2">Explore Menu</p></a>
+                </div>
+                <div class="text-black bg-white rounded-lg my-1 hover:bg-red-600 hover:text-white mx-2">
+                    <a href=""><p class="mx-2">Your orders</p> </a>
+                </div>
+            </div>
+
+            <!-- Links -->
+            <div class="hidden md:flex space-x-4">
+                <a href="#" class="text-black-300 hover:text-white">Home</a>
+                <a href="#" class="text-black-300 hover:text-white">About</a>
+                <a href="#" class="text-black-300 hover:text-white">Services</a>
+                <a href="#" class="text-black-300 hover:text-white">Contact</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden flex items-center">
+                <button class="text-gray-300 focus:outline-none focus:text-white" id="mobile-menu-button">
+                    <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div class="md:hidden hidden" id="mobile-menu">
+            <a href="#" class="block text-gray-300 hover:text-white px-4 py-2">Home</a>
+            <a href="#" class="block text-gray-300 hover:text-white px-4 py-2">About</a>
+            <a href="#" class="block text-gray-300 hover:text-white px-4 py-2">Services</a>
+            <a href="#" class="block text-gray-300 hover:text-white px-4 py-2">Contact</a>
+        </div>
+    </nav>
+   <div class="main">
+        <div class="text-7xl flex justify-center">
+            <p class="mt-56 italic  text-white">Srilakshmi Restaurant</p>
+            <p class="mt-72 italic text-2xl font-bold text-white">Since 1985</p>
+        </div>
+   </div>
+   <footer class="bg-yellow-300 text-black py-6">
+    <div class="container mx-auto text-center">
+        <h2 class="text-lg font-bold">Srilakshmi Restaurant</h2>
+        <p class="mt-2">© 2024 Srilakshmi Restaurant. All rights reserved.</p>
+    </div>
+    <div class="mt-4 flex justify-center">
+        <a href="https://www.facebook.com" target="_blank" class="mx-2">
+            <img src="./images/facebook.png" alt="Facebook" class="h-6 w-6 inline">
+        </a>Facebook
+        <a href="https://www.instagram.com" target="_blank" class="mx-2">
+            <img src="./images/instagram.png" alt="Instagram" class="h-6 w-6 inline">
+        </a>Instagram
+    </div>
+</footer>
+
+</body>
+</html>
